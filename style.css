@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    color: #444;
+}
+
+header {
+    background: linear-gradient(135deg, #8e24aa, #d81b60);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #6a1b9a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd1e5;
+}
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    margin: 25px 0;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px #d6a8c5;
+}
+
+h2 {
+    color: #8e24aa;
+    text-align: center;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
+article {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    text-align: center;
+}
+
+article h3 {
+    color: #d81b60;
+}
+
+li {
+    margin: 12px;
+    font-size: 17px;
+}
+
+.playlist {
+    background-color: #f3e5f5;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.playlist p {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
